@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AjoutLivre">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:text="Ajouter une Matiere"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Titre :"
+            android:textColor="#2196F3"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+        <EditText
+            android:id="@+id/tx1"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:hint="Matiere" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Niveau : "
+            android:textColor="#2196F3"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+        <EditText
+            android:id="@+id/tx2"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:hint="Classe"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConfirme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ajouter" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
